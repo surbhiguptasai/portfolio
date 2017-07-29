@@ -17,30 +17,26 @@ $(document).ready(function () {
 
     //Expand and Contract Works
 
-    $("#apiHack").on("click", function () {
-        showHide([$("#quizApp"), $("#pictionary"), $("#noteKeeper")], $("#apiHack"), $("#apiHackImage"));
+    $("#restaurantSearch").on("click", function () {
+        showHide([$("#contactApp"), $("#nycBikeApp"), $("#noteKeeper")], $("#restaurantSearch"), $("#restaurantSearchImage"));
     });
-    $("#quizApp").on("click", function () {
-        showHide([$("#pictionary"), $("#apiHack"), $("#noteKeeper")], $("#quizApp"), $("#quizAppImage"));
+    $("#contactApp").on("click", function () {
+        showHide([$("#nycBikeApp"), $("#restaurantSearch"), $("#noteKeeper")], $("#contactApp"), $("#contactAppImage"));
     });
-    $("#pictionary").on("click", function () {
-        showHide([$("#quizApp"), $("#apiHack"), $("#noteKeeper")], $("#pictionary"), $("#pictionaryImage"));
+    $("#nycBikeApp").on("click", function () {
+        showHide([$("#contactApp"), $("#restaurantSearch"), $("#noteKeeper")], $("#nycBikeApp"), $("#nycBikeImage"));
     });
-    $("#noteKeeper").on("click", function () {
-        showHide([$("#quizApp"), $("#apiHack"), $("#pictionary")], $("#noteKeeper"), $("#noteKeeperImage"));
+
+    $("#restaurantSearchClose").on("click", function () {
+        showHide([$("#contactApp"), $("#nycBikeApp"), $("#noteKeeper")], $("#restaurantSearch"), $("#restaurantSearchImage"));
     });
-    $("#apiHackClose").on("click", function () {
-        showHide([$("#quizApp"), $("#pictionary"), $("#noteKeeper")], $("#apiHack"), $("#apiHackImage"));
+    $("#contactAppClose").on("click", function () {
+        showHide([$("#nycBikeApp"), $("#restaurantSearch"), $("#noteKeeper")], $("#contactApp"), $("#contactAppImage"));
     });
-    $("#quizAppClose").on("click", function () {
-        showHide([$("#pictionary"), $("#apiHack"), $("#noteKeeper")], $("#quizApp"), $("#quizAppImage"));
+    $("#nycBikeClose").on("click", function () {
+        showHide([$("#contactApp"), $("#restaurantSearch"), $("#noteKeeper")], $("#nycBikeApp"), $("#nycBikeImage"));
     });
-    $("#pictionaryClose").on("click", function () {
-        showHide([$("#quizApp"), $("#apiHack"), $("#noteKeeper")], $("#pictionary"), $("#pictionaryImage"));
-    });
-    $("#noteKeeperClose").on("click", function () {
-        showHide([$("#quizApp"), $("#apiHack"), $("#pictionary")], $("#noteKeeper"), $("#noteKeeperImage"));
-    });
+
 
 
     //Setting Scrolls

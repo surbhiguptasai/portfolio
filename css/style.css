@@ -53,7 +53,9 @@ hr {
 /* Header styles
     (all the styles inside the < header > or < nav > tags)
 */
-
+.h4{
+    text-align:left;
+}
 .navbar {
     padding-bottom: 1rem;
     background-color: #fff;
@@ -76,7 +78,7 @@ hr {
 /*Jumbotron Styles*/
 
 .hero .jumbotron {
-    background-image: url(../images/hotairballoon-min.jpg);
+    background-image: url(../images/nybg.jpg);
     height: 70rem;
     background-size: cover;
     background-position: center;
@@ -90,7 +92,10 @@ hr {
     color: #1D2E26;
     font-size: 4.5rem;
 }
-
+.marginminus8
+{
+    margin-bottom: -60px;
+}
 .hero .jumbotron h4 {
     color: #fff;
     font-size: 3rem;
@@ -163,15 +168,15 @@ hr {
     padding-top: 6rem;
 }
 
-#pictionary {
+#nycBikeApp {
     background: rgba(79, 124, 103, 0.9);
 }
 
-#quizApp {
+#contactApp {
     background: rgba(49, 77, 64, 0.9);
 }
 
-#apiHack {
+#restaurantSearch {
     background: rgba(29, 46, 38, 0.9);
 }
 
@@ -203,17 +208,17 @@ i:hover,
     cursor: pointer;
 }
 
-#pictionaryImage {
+#nycBikeImage {
     border: 10px solid rgba(79, 124, 103, 0.9);
     margin-top: -8.2rem;
 }
 
-#quizAppImage {
+#contactAppImage {
     border: 10px solid rgba(49, 77, 64, 0.9);
     margin-top: -8.1rem;
 }
 
-#apiHackImage {
+#restaurantSearchImage {
     border: 10px solid rgba(29, 46, 38, 0.9);
     margin-top: -8rem;
 }
@@ -223,9 +228,9 @@ i:hover,
     margin-top: -8.3rem;
 }
 
-#pictionaryImage,
-#quizAppImage,
-#apiHackImage,
+#nycBikeImage,
+#contactAppImage,
+#restaurantSearchImage,
 #noteKeeperImage {
     display: none;
 }

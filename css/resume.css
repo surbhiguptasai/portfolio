@@ -1,0 +1,300 @@
+/*General Styles*/
+
+body {
+    font-size: 62.5%;
+    font-family: "Montserrat";
+    color: #333333;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.37;
+}
+
+a {
+    color: #333333;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #4e4e4e;
+}
+
+a:hover {
+    color: #4e4e4e;
+    text-decoration: underline;
+}
+
+.fa {
+    font-size: 2em;
+}
+
+.left {
+    font-size: 1em;
+}
+
+.main {
+    margin 0 auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: 3.5em;
+}
+
+h3 {
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+h4 {
+    color: #4e4e4e;
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+p {
+    font-family: "Libre Baskerville";
+    font-size: 1.5em;
+}
+
+li {
+    font-family: "Libre Baskerville";
+    font-size: 1.5em;
+}
+
+.keywords {
+    background-color: #333333;
+    color: #fff;
+    padding: 6px;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.lightBG {
+    background-color: #888;
+}
+
+
+/*Download Link*/
+
+.download {
+    margin-top: 1rem;
+    text-align: right;
+}
+
+.download a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.download:hover {
+    cursor: pointer;
+}
+
+
+/*Header/Contact Info*/
+
+.header {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 1em;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+.profile {
+    font-family: Montserrat;
+    font-size: 1em;
+    margin: 0;
+}
+
+.projectLinkText,
+.profileLinkText {
+    display: none;
+}
+
+.contact-header {
+    font-weight: bold;
+}
+
+.label {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+
+/*Projects*/
+
+.links {
+    list-style-type: none;
+    text-align: center;
+}
+
+.links h3 {
+    padding: 1rem;
+}
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.square {
+    width: 48%;
+    height: 25rem;
+    border: 1px solid #333;
+    float: left;
+}
+
+.projectWrapper {
+    padding: 1rem;
+}
+
+hr {
+    width: 60%;
+    text-align: left;
+}
+
+
+/*Skills*/
+
+.skills {
+    margin-bottom: 10px;
+}
+
+
+/*References*/
+
+blockquote {
+    margin: 2em 10px;
+    padding: 1em 10px;
+    border-left: 10px solid #edf0f5;
+    font-family: "Open Sans";
+    font-size: 1.5em;
+}
+
+blockquote .name {
+    font-weight: bold;
+    font-family: "Montserrat";
+}
+
+
+/*Responsive Styles*/
+
+.responsive-show {
+    display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+    .header {
+        font-size: 1.66em;
+    }
+    h2 {
+        font-size: 3em;
+    }
+    .square {
+        height: 33rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .square {
+        width: 98%;
+        height: 25rem;
+        border: 1px solid #333;
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    p {
+        font-size: 1.2em;
+    }
+    li {
+        font-size: 1.2em;
+    }
+    blockquote {
+        font-size: 1.2em;
+        font-family: "Libre Baskerville", serif;
+    }
+    h2 {
+        font-size: 2.3em;
+    }
+    .responsive-hidden {
+        display: none;
+        visibility: hidden;
+    }
+    .responsive-show {
+        display: inline;
+        visibility: visible;
+    }
+    .square {
+        height: 30rem;
+    }
+}
+
+
+/*Print Styles*/
+
+@media only print {
+    body {
+        width: 95%;
+        font-size: 30%;
+    }
+    .keywords {
+        color: #333;
+    }
+    .header {
+        margin-bottom: 1rem;
+    }
+    .header h1,
+    .header .label {
+        font-size: 90%;
+    }
+    #contact {
+        display: inline-block;
+    }
+    #profiles {
+        margin-top: 1rem;
+        margin-bottom: -1rem;
+    }
+    .download,
+    .profileLinks,
+    .projectLinks {
+        display: none;
+    }
+    .profileLinkText,
+    .projectLinkText {
+        display: block;
+    }
+    .projectLinkText {
+        font-size: 140%;
+        margin-bottom: 1rem;
+    }
+    #about,
+    #work {
+        padding: 0.5rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    h4 {
+        font-size: 0.5rem;
+    }
+    .square {
+        width: 95%;
+        margin: 0 auto;
+        height: 12rem;
+        border: none;
+    }
+    .projectWrapper {
+        padding: 0.5rem;
+    }
+}

@@ -147,8 +147,8 @@ h1 {
 }
 
 .square {
-    width: 48%;
-    height: 25rem;
+    width: 100%;
+    height: 22rem;
     border: 1px solid #333;
     float: left;
 }

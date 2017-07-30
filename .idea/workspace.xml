@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a455f43-a92a-4931-a994-dcab5ad0b9f9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/restuarvantsearcher.mp4" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resume/resume.pdf" afterPath="$PROJECT_DIR$/resume/resume.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/resume.css" afterPath="$PROJECT_DIR$/css/resume.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resume.html" afterPath="$PROJECT_DIR$/resume.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,7 +16,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
+            <state relative-caret-position="2039">
               <caret line="129" column="74" lean-forward="false" selection-start-line="129" selection-start-column="74" selection-end-line="129" selection-end-column="74" />
               <folding />
             </state>
@@ -81,8 +76,8 @@
       <file leaf-file-name="resume.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resume.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="132" column="113" lean-forward="false" selection-start-line="132" selection-start-column="113" selection-end-line="132" selection-end-column="113" />
+            <state relative-caret-position="356">
+              <caret line="132" column="85" lean-forward="false" selection-start-line="132" selection-start-column="79" selection-end-line="132" selection-end-column="85" />
               <folding />
             </state>
           </provider>
@@ -102,6 +97,7 @@
       <find>nycBikeC</find>
       <find>h4</find>
       <find>square</find>
+      <find>pdf</find>
       <find>resume</find>
     </findStrings>
   </component>
@@ -300,12 +296,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1501331814054</updated>
-      <workItem from="1501331817788" duration="24493000" />
+      <workItem from="1501331817788" duration="25479000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24493000" />
+    <option name="totallyTimeSpent" value="25479000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -397,7 +393,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
+        <state relative-caret-position="2039">
           <caret line="129" column="74" lean-forward="false" selection-start-line="129" selection-start-column="74" selection-end-line="129" selection-end-column="74" />
           <folding />
         </state>
@@ -405,8 +401,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resume.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="132" column="113" lean-forward="false" selection-start-line="132" selection-start-column="113" selection-end-line="132" selection-end-column="113" />
+        <state relative-caret-position="356">
+          <caret line="132" column="85" lean-forward="false" selection-start-line="132" selection-start-column="79" selection-end-line="132" selection-end-column="85" />
           <folding />
         </state>
       </provider>

@@ -57,7 +57,7 @@ hr {
     text-align:left;
 }
 .navbar {
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
     background-color: #fff;
 }
 
@@ -68,7 +68,10 @@ hr {
 .navbar-default {
     border: none;
 }
-
+.navbar-center{
+    margin-right: 30px;
+    margin-top: 15px;
+}
 
 /* Content styles
     (all the styles inside the < sections > or < aside > tags)

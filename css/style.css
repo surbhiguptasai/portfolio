@@ -170,9 +170,9 @@ hr {
 }
 
 .screenshot {
-    max-height: 60rem;
-    width: 80%;
-    padding-top: 6rem;
+    max-height: 100rem;
+    width: 90%;
+    padding-top: 3rem;
 }
 
 #nycBikeApp {

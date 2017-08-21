@@ -18,23 +18,23 @@ $(document).ready(function () {
     //Expand and Contract Works
 
     $("#restaurantSearch").on("click", function () {
-        showHide([$("#contactApp"), $("#nycBikeApp"), $("#noteKeeper")], $("#restaurantSearch"), $("#restaurantSearchImage"));
+        showHide([$("#contactApp"), $("#nycBikeApp")], $("#restaurantSearch"), $("#restaurantSearchImage"));
     });
     $("#contactApp").on("click", function () {
-        showHide([$("#nycBikeApp"), $("#restaurantSearch"), $("#noteKeeper")], $("#contactApp"), $("#contactAppImage"));
+        showHide([$("#nycBikeApp"), $("#restaurantSearch")], $("#contactApp"), $("#contactAppImage"));
     });
     $("#nycBikeApp").on("click", function () {
-        showHide([$("#contactApp"), $("#restaurantSearch"), $("#noteKeeper")], $("#nycBikeApp"), $("#nycBikeImage"));
+        showHide([$("#contactApp"), $("#restaurantSearch")], $("#nycBikeApp"), $("#nycBikeImage"));
     });
 
     $("#restaurantSearchClose").on("click", function () {
-        showHide([$("#contactApp"), $("#nycBikeApp"), $("#noteKeeper")], $("#restaurantSearch"), $("#restaurantSearchImage"));
+        showHide([$("#contactApp"), $("#nycBikeApp")], $("#restaurantSearch"), $("#restaurantSearchImage"));
     });
     $("#contactAppClose").on("click", function () {
-        showHide([$("#nycBikeApp"), $("#restaurantSearch"), $("#noteKeeper")], $("#contactApp"), $("#contactAppImage"));
+        showHide([$("#nycBikeApp"), $("#restaurantSearch")], $("#contactApp"), $("#contactAppImage"));
     });
     $("#nycBikeClose").on("click", function () {
-        showHide([$("#contactApp"), $("#restaurantSearch"), $("#noteKeeper")], $("#nycBikeApp"), $("#nycBikeImage"));
+        showHide([$("#contactApp"), $("#restaurantSearch")], $("#nycBikeApp"), $("#nycBikeImage"));
     });
 
 

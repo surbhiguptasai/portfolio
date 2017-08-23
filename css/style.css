@@ -174,11 +174,21 @@ hr {
     width: 90%;
     padding-top: 3rem;
 }
-
-
+.textd
+{
+    text-align: left;
+    color:black;
+}
+.padding50px{
+    padding-top:50px;
+}
+.name-left{
+    padding-left:15px;
+    padding-top:15px;
+}
 .screenshot1 {
-    max-height: 100rem;
-    width: 100%;
+    max-height: 300px;
+    width: 300px;
     padding-top: 3rem;
 }
 
@@ -357,7 +367,11 @@ footer a:hover {
             /*width: 5rem;*/
             /*margin-top: 2rem;*/
         /*}*/
-
+        .screenshot1 {
+            max-height: 600px;
+            width: 600px;
+            padding-top: 3rem;
+        }
         .portfolio .box {
             height: 80rem;
             /*padding-bottom: 4rem;*/
@@ -388,6 +402,11 @@ footer a:hover {
         width: 70%;
         padding-top: 0rem;
     }
+    .screenshot1 {
+        max-height: 400px;
+        width: 230px;
+        padding-top: 3rem;
+    }
 
     .portfolio .box {
         height: 46rem;
@@ -399,7 +418,7 @@ footer a:hover {
         margin-top: -4rem;
     }
     h2 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
 }
@@ -407,5 +426,10 @@ footer a:hover {
 @media only screen and (min-width: 1200px) {
     h2 {
         font-size: 30px;
+    }
+    .screenshot1 {
+        max-height: 300px;
+        width: 300px;
+        padding-top: 3rem;
     }
 }

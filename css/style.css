@@ -264,7 +264,11 @@ i:hover,
     margin-top: 7rem;
     line-height: 1.37
 }
-
+.btn-color{
+        background-color: cornflowerblue;
+    color: rgba(29, 46, 38, 0.9);
+    font-weight: bold;
+}
 .details .btn {
     background-color: #fff;
     border: 1px solid #1D2E26;

@@ -20,28 +20,49 @@
     -webkit-padding-end: 0px;
 }
 
-
+/*.navbar-right 
+{
+    float: right !important;
+}*/
 /* General styles*/
 
+/*.navbar-collapse.collapse {
+  display: block!important;
+}
+
+.navbar-nav>li, .navbar-nav {
+  float: left !important;
+}*/
+
+/*.navbar-nav.navbar-right:last-child {
+  margin-right: -15px !important;
+}
+
+.navbar-right {
+  float: right!important;
+}*/
+
 body {
-    font-family: Libre Baskerville, serif;
+    font-family: Montserrat, cursive;
     font-size: 16px;
     color: #444;
 }
 
 .sectionTitle {
-    color: #1D2E26;
+    color: black;
     font-family: "Montserrat", cursive;
-    margin-bottom: 4rem;
+    margin-bottom: 8rem;
+    margin-top: 4rem;
+        font-weight: bold;
 }
 
 hr {
     border-color: #1D2E26;
     border-image: none;
     border-style: solid none none;
-    border-width: 3px 0 0;
+    border-width: 1px 0 0;
     margin: 0 auto;
-    width: 60%;
+    width: 90%;
     clear: both;
 }
 
@@ -92,30 +113,35 @@ hr {
 
 .hero .jumbotron .jumboName {
     margin-top: 4rem;
-    color: #1D2E26;
+    color: black;
+    font-weight: bolder;
     font-size: 4.5rem;
+    padding-top: 25px;
 }
 .marginminus8
 {
     margin-bottom: -60px;
 }
 .hero .jumbotron h4 {
-    color: #fff;
-    font-size: 3rem;
-    margin-top: 3rem;
+   color:#ff1c59;
+    font-size: 4rem;
+    font-weight: bolder;
+    
 }
 
 .hero .fa-chevron-down {
-    margin-top: 45.5rem;
+    margin-top: 47rem;
     font-size: 5rem;
     color: #1D2E26;
 }
 
-
+.pt{
+        padding-top: 18px;
+}
 /*Intro Styles*/
 
 .introduction {
-    margin-top: 11rem;
+    margin-top: 3rem;
     clear: both;
     height: 40rem;
     text-align: left;
@@ -123,9 +149,12 @@ hr {
 }
 
 .introduction img {
-    width: 90%;
+    width: 100%;
 }
-
+.container-fluid{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
 
 /*Portfolio Styles*/
 
@@ -162,7 +191,7 @@ hr {
 
 .portfolio .info {
     min-height: 36rem;
-    padding: 1rem;
+   /* padding: 1rem;*/
 }
 
 .info:hover {
@@ -185,10 +214,11 @@ hr {
 .name-left{
     padding-left:15px;
     padding-top:15px;
+        font-weight: bolder;
 }
 .screenshot1 {
-    max-height: 300px;
-    width: 300px;
+    max-height: 800px;
+    width: 1000px;
     padding-top: 3rem;
 }
 
@@ -371,13 +401,16 @@ footer a:hover {
             /*width: 5rem;*/
             /*margin-top: 2rem;*/
         /*}*/
+        .description{
+                min-height: 20rem !important;
+        }
         .screenshot1 {
-            max-height: 600px;
-            width: 600px;
-            padding-top: 3rem;
+            max-height: 500px;
+            width: 300px;
+            padding-top: 1rem;
         }
         .portfolio .box {
-            height: 80rem;
+            height: 35rem;
             /*padding-bottom: 4rem;*/
             /*padding-top: 5rem;*/
         }
@@ -394,11 +427,60 @@ footer a:hover {
             padding-top: 1rem;
         }
 
+
+.hero .fa-chevron-down {
+    margin-top: 35rem;
+    font-size: 5rem;
+    color: #1D2E26;
+}
         /*.portfolio .box .description {*/
             /*min-height: 18rem;*/
 
         /*}*/
     }
+
+    @media only screen and (min-width: 550px) {
+    
+    .screenshot1 {
+        max-height: 500px;
+        width: 500px;
+        padding-top: 3rem;
+    }
+.portfolio .box {
+            height: 45rem;
+            /*padding-bottom: 4rem;*/
+            /*padding-top: 5rem;*/
+        }
+   
+    h2 {
+        font-size: 30px;
+    }
+
+}
+
+
+    @media only screen and (min-width: 768px) {
+    .introduction img {
+        width: 70%;
+        padding-top: 0rem;
+    }
+    .screenshot1 {
+        max-height: 800px;
+        width: 700px;
+        padding-top: 3rem;
+    }
+
+    .portfolio .box {
+        height: 55rem;
+   /*     padding-bottom: 4rem;
+        padding-top: 1rem;*/
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+}
 
 
 @media only screen and (min-width: 992px) {
@@ -407,19 +489,19 @@ footer a:hover {
         padding-top: 0rem;
     }
     .screenshot1 {
-        max-height: 400px;
-        width: 230px;
+        max-height: 800px;
+        width: 700px;
         padding-top: 3rem;
     }
 
     .portfolio .box {
-        height: 46rem;
-        padding-bottom: 4rem;
-        padding-top: 5rem;
+        height: 55rem;
+   /*     padding-bottom: 4rem;
+        padding-top: 1rem;*/
     }
     .portfolio .box  {
-        min-height: 10rem;
-        margin-top: -4rem;
+       /* min-height: 10rem;*/
+       /* margin-top: -4rem;*/
     }
     h2 {
         font-size: 20px;
@@ -431,9 +513,14 @@ footer a:hover {
     h2 {
         font-size: 30px;
     }
+      .portfolio .box {
+            height: 72rem;
+            /*padding-bottom: 4rem;*/
+            /*padding-top: 5rem;*/
+        }
     .screenshot1 {
-        max-height: 300px;
-        width: 300px;
+        max-height: 800px;
+        width: 1000px;
         padding-top: 3rem;
     }
 }

@@ -42,20 +42,33 @@
   float: right!important;
 }*/
 
+.emailf
+{
+    font-size: 2rem
+}
 body {
     font-family: Montserrat, cursive;
     font-size: 16px;
     color: #444;
 }
-
+.text-l{
+    text-align: left;
+    font-size: 24px;
+}
 .sectionTitle {
     color: black;
     font-family: "Montserrat", cursive;
-    margin-bottom: 8rem;
-    margin-top: 4rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
         font-weight: bold;
 }
-
+.sectionTitle1 {
+    color: black;
+    font-family: "Montserrat", cursive;
+    margin-bottom: 15px;
+    margin-top: 15px;
+        font-weight: bold;
+}
 hr {
     border-color: #1D2E26;
     border-image: none;
@@ -67,7 +80,7 @@ hr {
 }
 
 .bottomSpacer {
-    margin-bottom: 8rem;
+    margin-bottom: 4rem;
 }
 
 
@@ -118,12 +131,15 @@ hr {
     font-size: 4.5rem;
     padding-top: 25px;
 }
+.jumbotron{
+    margin-bottom: 0px !important;
+}
 .marginminus8
 {
     margin-bottom: -60px;
 }
 .hero .jumbotron h4 {
-   color:#ff1c59;
+   color:black;
     font-size: 4rem;
     font-weight: bolder;
     
@@ -141,7 +157,6 @@ hr {
 /*Intro Styles*/
 
 .introduction {
-    margin-top: 3rem;
     clear: both;
     height: 40rem;
     text-align: left;
@@ -212,7 +227,7 @@ hr {
     padding-top:50px;
 }
 .name-left{
-    padding-left:15px;
+    margin-left:30px;
     padding-top:15px;
         font-weight: bolder;
 }
@@ -264,22 +279,22 @@ i:hover,
 
 #nycBikeImage {
     border: 10px solid rgba(79, 124, 103, 0.9);
-    margin-top: -8.2rem;
+    margin-top: -4.1rem;
 }
 
 #contactAppImage {
     border: 10px solid rgba(49, 77, 64, 0.9);
-    margin-top: -8.1rem;
+    margin-top: -4.1rem;
 }
 
 #restaurantSearchImage {
     border: 10px solid rgba(29, 46, 38, 0.9);
-    margin-top: -8rem;
+    margin-top: -4.1rem;
 }
 
 #noteKeeperImage {
     border: 10px solid rgba(59, 93, 77, 0.9);
-    margin-top: -8.3rem;
+    margin-top: -4.1rem;
 }
 
 #nycBikeImage,
@@ -321,7 +336,7 @@ i:hover,
 
 .contactInfo h2 {
     text-align: center;
-    margin-top: 8rem;
+    margin-top: 4rem;
 }
 
 .contactInfo p {
@@ -401,18 +416,63 @@ footer a:hover {
             /*width: 5rem;*/
             /*margin-top: 2rem;*/
         /*}*/
+.sectionTitle {
+   font-size: 24px;
+}
+.sectionTitle1 {
+    font-size: 24px;
+}
+.navbar {
+    padding-bottom: 0rem;
+}
+
+.emailf
+{
+    font-size: 1.5rem
+}
+
+.col-xs-offset-2 {
+
+    margin-left: 0%;
+
+}
+
+        .icons img {
+    max-height: 5rem;
+    width: 5rem;
+    margin-top: 2rem;
+}
+
+    
+   .hero .jumbotron .jumboName {
+    margin-top: 4rem;
+    color: black;
+    font-weight: bolder;
+    font-size: 3rem;
+    padding-top: 25px;
+}
+.hero .jumbotron h4 {
+   color:black;
+    font-size: 3rem;
+    font-weight: bolder;
+    
+}
+.text-l{
+    text-align: left;
+    font-size: 16px;
+}
         .description{
-                min-height: 20rem !important;
+                min-height: 15rem !important;
         }
         .screenshot1 {
             max-height: 500px;
-            width: 300px;
+            width: 235px;
             padding-top: 1rem;
         }
         .portfolio .box {
-            height: 35rem;
+            height: 25rem;
             /*padding-bottom: 4rem;*/
-            /*padding-top: 5rem;*/
+            /*! padding-top: 5rem; */
         }
 
         .portfolio  {
@@ -422,16 +482,35 @@ footer a:hover {
 
         .portfolio .box  {
             min-height: 0rem;
-            margin-top: 0rem;
+            margin-top: 0.5rem;
             padding-bottom: 0rem;
             padding-top: 1rem;
         }
 
+.fa-2x {
 
+    font-size: 1.5em;
+
+}
 .hero .fa-chevron-down {
-    margin-top: 35rem;
-    font-size: 5rem;
+    margin-top: 30rem;
+    font-size: 3rem;
     color: #1D2E26;
+}
+.pt {
+
+    padding-top: 1px;
+
+}
+h2
+{
+    font-size: 20px;
+}
+
+.contactInfo h2 {
+
+    font-size: 16px;
+
 }
         /*.portfolio .box .description {*/
             /*min-height: 18rem;*/
@@ -460,18 +539,34 @@ footer a:hover {
 
 
     @media only screen and (min-width: 768px) {
+
+
+ .btn-group-lg > .btn, .btn-lg {
+    padding: 10px 16px !important;
+    font-size: 15px !important;
+    line-height: 1.3333333 !important;
+    border-radius: 6px !important;
+}
+
+/*          .btn-responsive {
+    padding:2px 4px;
+    font-size:80%;
+    line-height: 1;
+    border-radius:3px;
+  }*/
+
     .introduction img {
         width: 70%;
         padding-top: 0rem;
     }
     .screenshot1 {
         max-height: 800px;
-        width: 700px;
+        width: 600px;
         padding-top: 3rem;
     }
 
     .portfolio .box {
-        height: 55rem;
+        height: 50rem;
    /*     padding-bottom: 4rem;
         padding-top: 1rem;*/
     }
@@ -480,10 +575,40 @@ footer a:hover {
         font-size: 30px;
     }
 
+    .contactInfo h2 {
+
+    font-size: 24px;
+
+}
+.emailf
+{
+    font-size: 2rem
+}
+
+       .icons img {
+    max-height: 8rem;
+    width: 8rem;
+    margin-top: 2rem;
+}
+
 }
 
 
 @media only screen and (min-width: 992px) {
+
+/*    .btn-responsive {
+    padding:4px 9px;
+    font-size:90%;
+    line-height: 1.2;
+  }*/
+
+  .btn-group-lg > .btn, .btn-lg {
+    padding: 10px 16px !important;
+    font-size: 18px !important;
+    line-height: 1.3333333 !important;
+    border-radius: 6px !important;
+}
+
     .introduction img {
         width: 70%;
         padding-top: 0rem;
@@ -501,7 +626,7 @@ footer a:hover {
     }
     .portfolio .box  {
        /* min-height: 10rem;*/
-       /* margin-top: -4rem;*/
+        margin-top: 0.5rem;
     }
     h2 {
         font-size: 20px;

@@ -65,8 +65,8 @@ body {
 .sectionTitle1 {
     color: black;
     font-family: "Montserrat", cursive;
-    margin-bottom: 15px;
-    margin-top: 15px;
+        margin-bottom: 3rem;
+    margin-top: 3rem;
         font-weight: bold;
 }
 hr {
@@ -80,7 +80,7 @@ hr {
 }
 
 .bottomSpacer {
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 
 
@@ -416,6 +416,13 @@ footer a:hover {
             /*width: 5rem;*/
             /*margin-top: 2rem;*/
         /*}*/
+        img {
+    padding-bottom: 3rem;
+}
+        .navbar-brand {
+    padding-left: 25px !important;
+    color:black !important;
+}
 .sectionTitle {
    font-size: 24px;
 }
@@ -482,7 +489,7 @@ footer a:hover {
 
         .portfolio .box  {
             min-height: 0rem;
-            margin-top: 0.5rem;
+            margin-top: 1.5rem;
             padding-bottom: 0rem;
             padding-top: 1rem;
         }
@@ -607,6 +614,12 @@ h2
     text-align: left;
     font-size: 24px;
 }
+.sectionTitle1 {
+    font-size: 30px;
+}
+        img {
+    padding-bottom: 0rem;
+}
 }
 
 
@@ -642,7 +655,7 @@ h2
     }
     .portfolio .box  {
        /* min-height: 10rem;*/
-        margin-top: 0.5rem;
+        margin-top: 1.5rem;
     }
     h2 {
         font-size: 20px;

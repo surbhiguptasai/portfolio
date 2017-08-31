@@ -105,6 +105,7 @@ hr {
 .navbar-center{
     margin-right: 30px;
     margin-top: 1px;
+    margin-left: 10px;
 }
 
 /* Content styles
@@ -417,7 +418,7 @@ footer a:hover {
             /*margin-top: 2rem;*/
         /*}*/
         img {
-    padding-bottom: 3rem;
+    margin-bottom: 3rem;
 }
         .navbar-brand {
     padding-left: 25px !important;
@@ -467,6 +468,9 @@ footer a:hover {
 .text-l{
     text-align: left;
     font-size: 16px;
+}
+.navbar-toggle {
+    margin-right: 25px !important;
 }
         .description{
                 min-height: 15rem !important;
@@ -553,6 +557,9 @@ h2
     font-size: 15px !important;
     line-height: 1.3333333 !important;
     border-radius: 6px !important;
+}
+.pull-left{
+    margin-left: 30px !important;
 }
 
 /*          .btn-responsive {

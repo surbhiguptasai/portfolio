@@ -39,11 +39,13 @@ a:hover {
 }
 
 h2 {
-    font-size: 3.5em;
+    font-size: 3em;
 }
-
+.unbold{
+    font-weight: normal;
+}
 h3 {
-    font-size: 2em;
+    font-size: 1.3em;
     margin-bottom: 0;
 }
 
@@ -70,6 +72,16 @@ li {
     font-size: 1.2em;
     margin-bottom: 5px;
     display: inline-block;
+   
+}
+.keywords1 {
+    background-color: #333333;
+    color: #fff;
+    padding: 6px;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    display: inline-block;
+    margin-right: 15px;
 }
 
 .lightBG {
@@ -105,7 +117,7 @@ li {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 3rem;
     margin-bottom: 0;
 }
 
@@ -152,6 +164,12 @@ h1 {
     border: 1px solid #333;
     float: left;
 }
+.square1 {
+    width: 100%;
+    height: 22rem;
+    border: 1px solid #333;
+    float: left;
+}
 
 .projectWrapper {
     padding: 1rem;
@@ -192,40 +210,61 @@ blockquote .name {
     display: none;
 }
 
+
+
 @media only screen and (max-width: 1024px) {
     .header {
-        font-size: 1.66em;
+        font-size: 1.2em;
     }
     h2 {
         font-size: 3em;
     }
-    .square {
+   /* .square {
         height: 33rem;
     }
+     .square1 {
+        height: 33rem;
+    }*/
 }
 
-@media only screen and (max-width: 768px) {
-    .square {
-        width: 98%;
-        height: 25rem;
-        border: 1px solid #333;
-        float: left;
-    }
+
+
+
+@media only screen and (min-width: 768px) {
+    hr {
+    width: 70%;
+    text-align: left;
 }
 
-@media only screen and (max-width: 480px) {
+    .projectWrapper {
+    padding: 0rem;
+}
     p {
         font-size: 1.2em;
+
     }
     li {
         font-size: 1.2em;
+        text-align: left;
     }
+
+    .header {
+    font-size: 1.6em;
+}
+
+    .unbold{
+    font-weight: normal;
+    font-size: 1.1em;
+}
     blockquote {
-        font-size: 1.2em;
+        font-size: 1.0em;
         font-family: "Libre Baskerville", serif;
+        text-align: left;
+        margin: 0em 0px;
+      padding: 0em 0px;
     }
     h2 {
-        font-size: 2.3em;
+        font-size: 1.5rem;
     }
     .responsive-hidden {
         display: none;
@@ -236,8 +275,112 @@ blockquote .name {
         visibility: visible;
     }
     .square {
-        height: 30rem;
+        height: 38rem;
     }
+     .square1 {
+        height: 28rem;
+    }
+    h1{ 
+        font-size: 1.8rem;
+    }
+   .margin-side{
+    width: 100% !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    text-align: left;
+   }
+   .main {
+    margin-left: 0%;
+    margin-right: 0%;
+   
+}
+.links h3 {
+    padding: 0rem;
+}
+.cen{
+    text-align: left !important;
+}
+body{
+    width: 100%;
+}
+}
+
+@media only screen and (min-width: 980px) {
+    .square {
+        height: 25rem;
+    }
+     .square1 {
+        height: 28rem;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .projectWrapper {
+    padding: 0rem;
+}
+    p {
+        font-size: 1.2em;
+
+    }
+    li {
+        font-size: 1.2em;
+        text-align: left;
+    }
+
+    .header {
+    font-size: 1.6em;
+}
+
+    .unbold{
+    font-weight: normal;
+    font-size: 1.1em;
+}
+    blockquote {
+        font-size: 1.0em;
+        font-family: "Libre Baskerville", serif;
+        text-align: left;
+        margin: 0em 0px;
+      padding: 0em 0px;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    .responsive-hidden {
+        display: none;
+        visibility: hidden;
+    }
+    .responsive-show {
+        display: inline;
+        visibility: visible;
+    }
+    .square {
+        height: 55rem;
+    }
+     .square1 {
+        height: 42rem;
+    }
+    h1{ 
+        font-size: 1.8rem;
+    }
+   .margin-side{
+    width: 100% !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    text-align: left;
+   }
+   .main {
+    margin-left: 0%;
+    margin-right: 0%;
+   
+}
+.links h3 {
+    padding: 0rem;
+}
+.cen{
+    text-align: left !important;
+}
+body{
+    width: 100%;
+}
 }
 
 
@@ -289,6 +432,12 @@ blockquote .name {
         font-size: 0.5rem;
     }
     .square {
+        width: 95%;
+        margin: 0 auto;
+        height: 12rem;
+        border: none;
+    }
+     .square1 {
         width: 95%;
         margin: 0 auto;
         height: 12rem;
